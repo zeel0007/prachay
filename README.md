@@ -4,6 +4,29 @@ A complete, production-grade **Expense Voucher Management System** built for Pra
 
 ---
 
+## 🖼️ Application Previews & Screenshots
+
+| 1. Authentication & Role Sign-In | 2. Employee Dashboard & Analytics |
+| :---: | :---: |
+| ![Sign In Screen](preview/01-preview.png) | ![Employee Dashboard](preview/02-preview.png) |
+
+| 3. Create Expense Voucher & Signature Upload | 4. My Vouchers & Status Tracking |
+| :---: | :---: |
+| ![Create Voucher](preview/03-preview.png) | ![My Vouchers](preview/04-preview.png) |
+
+| 5. Voucher Detail & Signature Verification | 6. Director Dashboard & Pending Queue |
+| :---: | :---: |
+| ![Voucher Details](preview/05-preview.png) | ![Director Dashboard](preview/06-preview.png) |
+
+<div align="center">
+
+### 7. Accounts & Finance Disbursement Ledger
+![Accounts Dashboard](preview/07-preview.png)
+
+</div>
+
+---
+
 ## 🚀 Key Features & Workflow
 
 ### User Roles & Strict Access Control
@@ -74,6 +97,7 @@ A complete, production-grade **Expense Voucher Management System** built for Pra
 │   ├── uploads/                # Signature image uploads directory
 │   ├── .env.example
 │   └── package.json
+├── preview/                    # UI Screenshots & Documentation Assets
 └── README.md
 ```
 
@@ -96,7 +120,7 @@ npm run seed
 # Run automated test suite
 npm test
 
-# Start Express server (runs on http://localhost:5000)
+# Start Express server (runs on http://localhost:5001)
 npm run dev
 ```
 
